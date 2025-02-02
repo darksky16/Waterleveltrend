@@ -1,1 +1,10 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+اطمینان filter=lfs diff=lfs merge=lfs -text
+اینکه filter=lfs diff=lfs merge=lfs -text
+LFS filter=lfs diff=lfs merge=lfs -text
+هستند filter=lfs diff=lfs merge=lfs -text
+از filter=lfs diff=lfs merge=lfs -text
+CSV filter=lfs diff=lfs merge=lfs -text
+ها filter=lfs diff=lfs merge=lfs -text
+تحت filter=lfs diff=lfs merge=lfs -text
