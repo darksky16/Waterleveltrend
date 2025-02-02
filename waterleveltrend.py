@@ -3,9 +3,10 @@ from dash import dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
 import pymannkendall as mk
+import os
 
-# Load the dataset (replace with your actual CSV file path)
-csv_file = r"C:\Users\ASUS\Desktop\Trend\combined_waterlevel.csv"
+# مسیر صحیح برای خواندن فایل در محیط Railway
+csv_file = os.path.join(os.path.dirname(__file__), "combined_waterlevel.csv")
 df = pd.read_csv(csv_file, encoding='utf-8-sig', low_memory=False)  # Handle mixed types and ensure Persian text compatibility
 
 # Ensure that 'gregorian_date' is in datetime format
